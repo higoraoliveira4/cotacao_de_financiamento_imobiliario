@@ -7,7 +7,8 @@ conversaoano = tempofinanciamento*12
 simulacaofinanciamento = valorcasa/conversaoano
 
 if simulacaofinanciamento > simulacaoparcela:
-    print ("o valor da sua renda mensal seria comprometido em mais de 30%, portanto, você não está apto a realizar este financiamento")
+    print ("o valor da sua renda mensal seria comprometido em mais de 30%, portanto, você não está apto a realizar este financiamento.")
 elif simulacaofinanciamento < simulacaoparcela:
-    print ("a sua renda mensal aplica para este financiamento")
+    print ("a sua renda mensal é suficiente para à aprovação do financiamento!")
+
 print ("se deseja tirar dúvidas com nossos corretores, entre em contato agora mesmo!")
