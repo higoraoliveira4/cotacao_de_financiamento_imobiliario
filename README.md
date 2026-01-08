@@ -1,28 +1,44 @@
-# Projeto de Simulação de Financiamento Imobiliário
-Este projeto apresenta um simulador de financiamento imobiliário desenvolvido em Python.
-O programa utiliza variáveis, conversão de tipos, operações aritméticas e estruturas condicionais para analisar se o valor da parcela é compatível com a renda do usuário.
-Com base nesses dados, o programa determina se o financiamento pode ser aprovado e exibe o resultado de forma clara e objetiva.
+# Simulador de Financiamento Imobiliário
 
-Sobre o Projeto
+Projeto de estudo desenvolvido em Python que simula a análise de um financiamento imobiliário com base na renda do usuário e no valor da parcela informada.
+O programa verifica se a parcela do financiamento é compatível com a renda mensal e informa se o financiamento pode ser aprovado ou não.
 
-O objetivo deste projeto é demonstrar conceitos básicos de programação em Python, incluindo:
+## Objetivo do projeto
+Praticar conceitos fundamentais da linguagem Python, como:
+- Entrada de dados pelo terminal
+- Conversão de tipos
+- Operações aritméticas
+- Estruturas condicionais (if, elif, else)
+- Lógica de tomada de decisão
 
-Processamento de dados inseridos pelo usuário
-Tomada de decisão com estruturas condicionais
-Manipulação de variáveis
-Operações matemáticas simples
+## Funcionalidades
 
-O programa solicita informações como renda e valor da parcela e analisa se o financiamento pode ser assumido com segurança.
+- Solicita a renda mensal do usuário
+- Solicita o valor da parcela do financiamento
+- Analisa se a parcela está dentro de um limite seguro da renda
+Informa se o financiamento:
+- Pode ser aprovado
+- Não pode ser aprovado devido ao comprometimento da renda
 
-Conceitos Utilizados
+## Tecnologias utilizadas
 
-Estruturas condicionais (if, elif, else)
-Operações aritméticas
-Entrada e saída de dados
-Tratamento simples de fluxo lógico
+- Python 3
 
-Como Executar
+## Como executar
 
-Certifique-se de ter o Python instalado no computador.
-Baixe o arquivo .py do projeto.
-Execute pelo terminal ou pelo PyCharm, VS Code ou editor de sua preferência:
+1. Certifique-se de que o Python esteja instalado no computador.
+2. Baixe o arquivo simulador-financiamento-imobiliario.py do projeto.
+3. Execute o arquivo pelo terminal ou por uma IDE de sua preferência, como:
+   - PyCharm
+   - Visual Studio Code
+   - IDLE
+
+## Exemplo de uso
+
+Entrada:
+Digite sua renda mensal: 3000.00
+Digite o valor do imóvel: 100.000
+Digite o tempo que deseja pagar o financiamento: 30 anos
+
+Saída:
+Resultado: a sua renda mensal é suficiente para à aprovação do financiamento!
